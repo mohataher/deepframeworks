@@ -110,7 +110,7 @@ Like Caffe, CNTK is also C++ based and is cross-platform. Hence, deployment shou
 #### TensorFlow <img src="http://www.wpclipart.com/signs_symbol/stars/5_star_rating_system/.cache/5_Star_Rating_System_4_and_a_half_stars.png">
 TF supports C++ interface and the library can be compiled/optimized on ARM architectures because it uses [Eigen](http://eigen.tuxfamily.org) (instead of a BLAS library). This means that you can deploy your trained models on a variety of devices (servers or mobile devices) without having to implement a separate model decoder or load Python/LuaJIT interpreter [3].
 
-TF doesn't work on Windows yet so TF models can't be deployed on Windows devices though.
+TF doesn't work on Windows yet so TF models can't be deployed on Windows devices as well.
 
 #### Theano <img src="http://www.wpclipart.com/signs_symbol/stars/5_star_rating_system/.cache/5_Star_Rating_System_3_stars.png">
 The lack of low-level interface and the inefficiency of Python interpreter makes Theano less attractive for industrial users. For a large model, the overhead of Python isn’t too bad but the dogma is still there.
